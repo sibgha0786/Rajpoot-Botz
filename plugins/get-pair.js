@@ -5,7 +5,7 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 Bot",
+    desc: "Get pairing code for Rajpoot-Botz",
     category: "download",
     use: ".pair +923237045919",
     filename: __filename
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 PAIRING COMPLETED*";
+        const doneMessage = "> *Rajpoot-Botz PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -49,7 +49,7 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 bot",
+    desc: "Get pairing code for Rajpoot-Botz",
     category: "download",
     use: ".pair +923237045919",
     filename: __filename
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 PAIRING COMPLETED*";
+        const doneMessage = "> *Rajpoot-Botz PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
